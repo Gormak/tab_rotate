@@ -1,0 +1,41 @@
+{
+	"settingsReloadIntervalMinutes": 1,
+	"fullscreen": false,
+	"autoStart": false,
+	"lazyLoadTabs" : false,
+	"closeExistingTabs": false,
+	"websites": [
+		{
+			"url": "https://www.boulanger.com/*,
+			"duration": 10,
+			"tabReloadIntervalSeconds": 15
+		},
+		{
+			"url": "https://bsup.boulnet.com/grafana/d/tMIlq8Nnz/b-com-omc-suivi-cde?orgId=1&refresh-10s",
+			"duration": 10,
+			"tabReloadIntervalSeconds": 15
+		},
+		{
+			"url": "https://bsup.boulnet.com/grafana/d/fqdA8Xj7z/green-light-red-light-dashboard?orgId=1&refresh=5s&var-EnvName-prod",
+			"duration": 10,
+			"tabReloadIntervalSeconds": 15
+		},
+		{
+			"url": "https://bsup.boulnet.com/grafana/d/hBvrpNhZz/api-groups?orgId=1&refresh=10s",
+			"duration": 10,
+			"tabReloadIntervalSeconds": 15
+		}
+		,
+		{
+			"url": "https://bsup.boulnet.com/grafana/d/5oeHnV54z/dashboard-magasin?orgId=1",
+			"duration": 10,
+			"tabReloadIntervalSeconds": 15
+		}
+		,
+		{
+			"url": "https://grafana.prd.api.udb.azr.intranet/d/apis-platodin-node/platodin-node-application?orgId=1&var-namespace=All&var-application=bff-frontcommerce&var-version=v1&var-pod=All&var-interval=1m&var-uri_exclusion_filter=%2Fsupervision.%2B&var-datasource=Prometheus&from=now-6h&to=now",
+			"duration": 10,
+			"tabReloadIntervalSeconds": 15
+		}
+	]
+}
